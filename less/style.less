@@ -57,6 +57,13 @@
         -ms-column-width: @width;
         column-width: @width;
         }
+.column-count (@count) {
+        -webkit-column-count: @count;
+        -moz-column-count: @count;
+        -o-column-count: @count;
+        -ms-column-count: @count;
+        column-count: @count;
+        }
        
 .font-size(@font-size: 16) {
     @rem: (@font-size / 10);
@@ -99,8 +106,8 @@ body, button, input, select, textarea { font-family: Calibri, Candara, "Gill San
  * Also: hot pink! (or customize the background color to match your design)
  */
 
-::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
-::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+::-moz-selection { background: #4F89A1; color: #fff; text-shadow: none; }
+::selection { background: #4F89A1; color: #fff; text-shadow: none; }
 
 /* =============================================================================
    Block Structures
@@ -448,8 +455,14 @@ header[role="banner"] {
 }
 
 .simpleList li {
-    list-style-type: circle;
     margin: 10px;
+}
+
+.no-csscolumns .simpleList li {
+    float: left;
+    width: 21%;
+    margin-right: 4%;
+    word-wrap: word-break;
 }
 
 .badges {
@@ -521,6 +534,9 @@ form {
         color:    #ccc;
     }
 }
+
+.success { color: green; }
+.fail { color: red; }
 
 /* ==|== media queries ======================================================
    PLACEHOLDER Media Queries for Responsive Design.
@@ -630,7 +646,7 @@ form {
     }
     
     .simpleList {
-        padding-left: 10px;
+        padding-left: 20px;
     }
 }
 

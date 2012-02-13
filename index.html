@@ -6,13 +6,16 @@
     <head>
         <meta charset="utf-8">
 
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
         <title>Devtroit</title>
         <meta name="description" content="Detroit is not commonly known as a hub for web design and development, but we know the truth. Detroit has the <em>best</em> web designers and developers around! If you are a Detroit area web designer, developer, or just a web geek, show your pride in the D with a Devtroit badge on your website.">
         <meta name="author" content="Dave Gillhespy">
 
         <meta name="viewport" content="width=device-width">
+        <link rel="icon" type="image/png" href="favicon.png">
+        
+        <link rel="apple-touch-icon-precomposed" href="apple-touch-icon.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png">
 
         <link rel="stylesheet" href="css/style.css">
 
@@ -84,19 +87,6 @@
                     </div>
                 </div>
                 
-                <section class="mod box who">
-                    <div class="inner">
-                        <header>
-                            <h1>Who's using it?</h1>
-                        </header>
-                        <div class="bd">
-                            <ul class="simpleList">
-                                <li><a href="http://davidgillhespy.com">David Gillhespy - davidgillhespy.com</a></li>
-                                <li><a href="http://calvinbushor.com">Calvin Bushor - calvinbushor.com</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
                 <div class="line split">
                     <div class="unit size1of2">
                         <section class="mod box tell">
@@ -105,19 +95,20 @@
                                     <h1>Let us know you're using it</h1>
                                 </header>
                                 <div class="bd">
-                                    <form action="">
+                                    <form method="post" action="/">
                                         <fieldset>
                                             <label for="name">Name or Website/Company Name</label>
-                                            <input type="text" id="name" class="form-text" />
+                                            <input type="text" id="name" name="name" class="form-text" />
                                         </fieldset>
                                         <fieldset>
                                             <label for="url">URL</label>
-                                            <input type="text" id="url" class="form-text" placeholder="http://yoursite.com" />
+                                            <input type="text" id="url" name="url" class="form-text" placeholder="http://yoursite.com" />
                                         </fieldset>
                                         <fieldset class="form-actions">
-                                            <input type="submit" value="Submit" />
+                                            <input type="submit" value="Submit" name="submit" />
                                         </fieldset>
-                                    </form>			
+                                    </form>
+                                    <div class="message"></div>
                                 </div>
                             </div>
                         </section>
@@ -129,12 +120,29 @@
                                     <h1>Twitter</h1>
                                 </header>
                                 <div class="bd">
-                                    <div id="tweet" class="tweet"></div>
+                                    <div id="tweet" class="tweet">
+                                        <p>The tweets are trying to load <img src="img/indicator.gif" /></p>
+                                        <p><a href="http://twitter.com/devtroit">Go directly to twitter instead.</a></p>
+                                    </div>
                                 </div>
                             </div>
                         </section>
                     </div>
                 </div>
+                
+<!--                <section class="mod box who">
+                    <div class="inner">
+                        <header>
+                            <h1>Who's using it?</h1>
+                        </header>
+                        <div class="bd">
+                            <ul class="simpleList">
+                                <li><a href="http://davidgillhespy.com">davidgillhespy.com</a></li>
+                                <li><a href="http://calvinbushor.com">calvinbushor.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>-->
             </div>
 
         </div>
@@ -146,6 +154,7 @@
         <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
         <script src="http://twitterjs.googlecode.com/svn/trunk/src/twitter.min.js"></script>
 
+        <!-- scripts concatenated -->
         <script defer src="js/plugins.js"></script>
         <script defer src="js/script.js"></script>
         <!-- end scripts -->
