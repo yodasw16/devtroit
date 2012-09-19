@@ -1,1 +1,1511 @@
-@font-face{font-family:'league gothic';src:url('../type/League_Gothic.eot?#iefix') format('embedded-opentype'),url('../type/League_Gothic.woff') format('woff'),url('../type/League_Gothic.ttf') format('truetype'),url('../type/League_Gothic.svg#webfont1Lb5Pdit') format('svg')}article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block}audio,canvas,video{display:inline-block;*display:inline;*zoom:1}audio:not([controls]){display:none}[hidden]{display:none}html{font-size:62.5%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}body{margin:0;font-size:16px;font-size:1.6rem;line-height:150%}body,button,input,select,textarea{font-family:Calibri,Candara,"Gill Sans","Gill Sans MT",sans-serif;color:#222}::-moz-selection{background:#4f89a1;color:#fff;text-shadow:none}::selection{background:#4f89a1;color:#fff;text-shadow:none}.mod{margin:10px}.bd,.ft,.mod header{overflow:hidden;*overflow:visible;zoom:1}a{color:#305361;text-shadow:0 1px 0 rgba(255,255,255,0.3);-webkit-transition:all 1s ease;-moz-transition:all 1s ease;-o-transition:all 1s ease;transition:all 1s ease}a:hover{color:#000}a:focus{outline:thin dotted}a:hover,a:active{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}blockquote{margin:1em 40px}dfn{font-style:italic}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}ins{background:#ff9;color:#000;text-decoration:none}mark{background:#ff0;color:#000;font-style:italic;font-weight:bold}pre,code,kbd,samp{font-family:monospace,serif;_font-family:'courier new',monospace;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:before,q:after{content:"";content:none}small{font-size:85%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}h1{font:2.75em/1.1 "league gothic","Arial Narrow",Arial,sans-serif;text-align:center}ul,ol{margin:1em 0;padding:0 0 0 40px}dd{margin:0 0 0 40px}nav ul,nav ol{list-style:none;list-style-image:none;margin:0;padding:0}img{border:0;-ms-interpolation-mode:bicubic;vertical-align:middle}img,object{max-width:100%}svg:not(:root){overflow:hidden}figure{margin:0}form{margin:0}fieldset{border:0;margin:0;padding:0}label{cursor:pointer}legend{border:0;*margin-left:-7px;padding:0}button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle}button,input{line-height:normal}button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button;*overflow:visible}button[disabled],input[disabled]{cursor:default}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top;resize:vertical}input:invalid,textarea:invalid{background-color:#f0dddd}table{border-collapse:collapse;border-spacing:0}td{vertical-align:top}.chromeframe{margin:.2em 0;background:#ccc;color:black;padding:.2em 0}h1,h2,h3,h4,h5,h6,ul,ol,dl,p,blockquote,.media,form{margin:10px}h1,h2,h3,h4,h5,h6,img{padding-bottom:0}pre{margin:10px}table h1,table h2,table h3,table h4,table h5,table h6,table p,table ul,table ol,table dl{padding:0}.ptn,.pvn,.pan{padding-top:0!important}.pts,.pvs,.pas{padding-top:5px!important}.ptm,.pvm,.pam{padding-top:10px!important}.ptl,.pvl,.pal{padding-top:20px!important}.prn,.phn,.pan{padding-right:0!important}.prs,.phs,.pas{padding-right:5px!important}.prm,.phm,.pam{padding-right:10px!important}.prl,.phl,.pal{padding-right:20px!important}.pbn,.pvn,.pan{padding-bottom:0!important}.pbs,.pvs,.pas{padding-bottom:5px!important}.pbm,.pvm,.pam{padding-bottom:10px!important}.pbl,.pvl,.pal{padding-bottom:20px!important}.pln,.phn,.pan{padding-left:0!important}.pls,.phs,.pas{padding-left:5px!important}.plm,.phm,.pam{padding-left:10px!important}.pll,.phl,.pal{padding-left:20px!important}.mtn,.mvn,.man{margin-top:0!important}.mts,.mvs,.mas{margin-top:5px!important}.mtm,.mvm,.mam{margin-top:10px!important}.mtl,.mvl,.mal{margin-top:20px!important}.mrn,.mhn,.man{margin-right:0!important}.mrs,.mhs,.mas{margin-right:5px!important}.mrm,.mhm,.mam{margin-right:10px!important}.mrl,.mhl,.mal{margin-right:20px!important}.mbn,.mvn,.man{margin-bottom:0!important}.mbs,.mvs,.mas{margin-bottom:5px!important}.mbm,.mvm,.mam{margin-bottom:10px!important}.mbl,.mvl,.mal{margin-bottom:20px!important}.mln,.mhn,.man{margin-left:0!important}.mls,.mhs,.mas{margin-left:5px!important}.mlm,.mhm,.mam{margin-left:10px!important}.mll,.mhl,.mal{margin-left:20px!important}.media{overflow:hidden;*overflow:visible;zoom:1}.media .img{float:left;margin-right:10px}.media .img img{display:block}.media .imgExt{float:right;margin-left:10px}html,html.oldie{background-color:#e6e6e6;background-image:-o-linear-gradient(#fff 0,transparent 0),-o-linear-gradient(0,#fff 0,transparent 0),-o-linear-gradient(rgba(255,255,255,0.2) 1px,transparent 1px),-o-linear-gradient(0,rgba(255,255,255,0.1) 1px,transparent 1px);background-image:-ms-linear-gradient(#fff 0,transparent 0),-ms-linear-gradient(0,#fff 0,transparent 0),-ms-linear-gradient(rgba(255,255,255,0.2) 1px,transparent 1px),-ms-linear-gradient(0,rgba(255,255,255,0.1) 1px,transparent 1px);background-image:-moz-linear-gradient(#fff 0,transparent 0),-moz-linear-gradient(0,#fff 0,transparent 0),-moz-linear-gradient(rgba(255,255,255,0.2) 1px,transparent 1px),-moz-linear-gradient(0,rgba(255,255,255,0.1) 1px,transparent 1px);background-image:-webkit-linear-gradient(#fff 0,transparent 0),-webkit-linear-gradient(0,#fff 0,transparent 0),-webkit-linear-gradient(rgba(255,255,255,0.2) 1px,transparent 1px),-webkit-linear-gradient(0,rgba(255,255,255,0.1) 1px,transparent 1px);background-image:linear-gradient(#fff 0,transparent 0),linear-gradient(0,#fff 0,transparent 0),linear-gradient(rgba(255,255,255,0.2) 1px,transparent 1px),linear-gradient(0,rgba(255,255,255,0.1) 1px,transparent 1px);background-size:100px 100px,100px 100px,20px 20px,20px 20px;background-position:-2px -2px,-2px -2px,-1px -1px,-1px -1px}header[role="banner"]{margin:0 auto;width:90%;text-align:center;padding:2em 0}.mainFooter a{text-decoration:none}[role="main"]{max-width:88%;margin:0 auto 2em}.box{background-color:#fff;background-color:rgba(255,255,255,0.9);-webkit-box-shadow:0 7px 0 rgba(0,0,0,0.5);-moz-box-shadow:0 7px 0 rgba(0,0,0,0.5);box-shadow:0 7px 0 rgba(0,0,0,0.5);border-radius:0 0 10px 10px;margin:0 auto 2em;padding:.5em;-webkit-transition:all 1s ease;-moz-transition:all 1s ease;-o-transition:all 1s ease;transition:all 1s ease}.box:hover{background-color:#fff}.mainFooter{background-color:#4f89a1;-webkit-box-shadow:0 -7px 0 rgba(0,0,0,0.5);-moz-box-shadow:0 -7px 0 rgba(0,0,0,0.5);box-shadow:0 -7px 0 rgba(0,0,0,0.5);color:#fff;padding:.5% 0;text-align:center}.tweet ul{list-style-type:none;padding:0}.tweet li{border-bottom:1px dotted;padding:10px 0}.tweet li:first-child{padding-top:0}.tweet li:last-child{border:0}.simpleList{padding-left:25px;margin:0;-webkit-column-width:16em;-moz-column-width:16em;-o-column-width:16em;-ms-column-width:16em;column-width:16em}.simpleList li{margin:10px}.badges figure{margin:15px 0;text-align:center}.twitters{display:table}.twitters iframe{vertical-align:text-top}form fieldset{margin:0 0 20px 0}form fieldset label{display:block;margin:0 0 5px 0;color:#4f89a1}form fieldset input.form-text{display:block;width:95%;padding:5px;font-size:14px;border:1px solid #999;background:#f5f5f5;-webkit-box-shadow:inset 0 5px 2px rgba(0,0,0,0.05);-moz-box-shadow:inset 0 5px 2px rgba(0,0,0,0.05);box-shadow:inset 0 5px 2px rgba(0,0,0,0.05);border-radius:4px}form fieldset input.form-text:focus{border:1px solid #ccc;background:#fff}form fieldset p.form-help{margin:5px 0 0 0;font-size:12px;color:#999}form fieldset.form-actions{margin:0}form input[type="submit"]{margin:0;padding:5px 10px;font-size:12px;font-weight:bold;border:1px solid #999;background:#eee;border-radius:4px}form input[type="submit"]:hover,form input[type="submit"]:focus{border:1px solid #bbb;background:#e5e5e5}form input[type="submit"]:active{border:1px solid #ccc;background:#eee}form input::-webkit-input-placeholder,form input:-moz-placeholder{color:#ccc}form input:-moz-placeholder{color:#ccc}.success{color:green}.fail{color:red}@media only screen and (min-width:768px){.line:after,.lastUnit:after{clear:both;display:block;visibility:hidden;overflow:hidden;height:0!important;line-height:0;font-size:xx-large;content:" x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x "}.line{*zoom:1}.unit{float:left}.size1of1{float:none}.size1of2{width:50%}.size1of3{width:33.33333%}.size2of3{width:66.66666%}.size1of4{width:25%}.size3of4{width:75%}.size1of5{width:20%}.size2of5{width:40%}.size3of5{width:60%}.size4of5{width:80%}.size1of6{width:16.6666666%}.size5of6{width:83.3333333%}.size1of7{width:14.2857143%}.size2of7{width:28.5714286%}.size3of7{width:42.8571429%}.size4of7{width:57.1428572%}.size5of7{width:71.4285715%}.size6of7{width:85.7142858%}.size1of12.lastUnit{display:table-cell;float:none;width:auto;*display:block;*zoom:1;_position:relative;_left:-3px;_margin-right:-3px}.append_size1of2{padding-right:50%}.append_size1of3{padding-right:33.33333%}.append_size2of3{padding-right:66.66666%}.append_size1of4{padding-right:25%}.append_size3of4{padding-right:75%}.append_size1of5{padding-right:20%}.append_size2of5{padding-right:40%}.append_size3of5{padding-right:60%}.append_size4of5{padding-right:80%}.append_size1of6{padding-right:16.6666666%}.append_size5of6{padding-right:83.3333333%}.append_size1of7{padding-right:14.2857143%}.append_size2of7{padding-right:28.5714286%}.append_size3of7{padding-right:42.8571429%}.append_size4of7{padding-right:57.1428572%}.append_size5of7{padding-right:71.4285715%}.append_size6of7{padding-right:85.7142858%}.prepend_size1of2{padding-left:50%}.prepend_size1of3{padding-left:33.33333%}.prepend_size2of3{padding-left:66.66666%}.prepend_size1of4{padding-left:25%}.prepend_size3of4{padding-left:75%}.prepend_size1of5{padding-left:20%}.prepend_size2of5{padding-left:40%}.prepend_size3of5{padding-left:60%}.prepend_size4of5{padding-left:80%}.prepend_size1of6{padding-left:16.6666666%}.prepend_size5of6{padding-left:83.3333333%}.prepend_size1of7{padding-left:14.2857143%}.prepend_size2of7{padding-left:28.5714286%}.prepend_size3of7{padding-left:42.8571429%}.prepend_size4of7{padding-left:57.1428572%}.prepend_size5of7{padding-left:71.4285715%}.prepend_size6of7{padding-left:85.7142858%}html{background:url(../img/bg.jpg) no-repeat center center fixed;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;-ms-background-size:cover;background-size:cover}html.oldie{background:0;background-color:#e6e6e6}header[role="banner"]{padding-bottom:4em;width:100%}h1{font-size:58px;font-size:5.8rem;text-align:left}.box{margin-bottom:4em;padding:1.25em}.box:last-child{margin-bottom:0}.split{margin-bottom:4em}.split .unit:nth-child(2n+1) .box{margin-right:5%}.split .unit:nth-child(2n) .box{margin-left:5%}html.oldie .split .box{margin:auto 5%}.badges figure{margin:0}.simpleList{padding-left:20px}.no-csscolumns .simpleList li{float:left;margin-right:4%;word-wrap:word-break}}.ir{display:block;border:0;text-indent:-999em;overflow:hidden;background-color:transparent;background-repeat:no-repeat;text-align:left;direction:ltr;*line-height:0}.ir br{display:none}.hidden{display:none!important;visibility:hidden}.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}.invisible{visibility:hidden}.clearfix:before,.clearfix:after{content:"";display:table}.clearfix:after{clear:both}.clearfix{*zoom:1}@media print{*{background:transparent!important;color:black!important;box-shadow:none!important;text-shadow:none!important;filter:none!important;-ms-filter:none!important}a,a:visited{text-decoration:underline}a[href]:after{content:" (" attr(href) ")"}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100%!important}@page{margin:.5cm}p,h2,h3{orphans:3;widows:3}h2,h3{page-break-after:avoid}}
+@font-face {
+  font-family: "league gothic";
+  src: url('../type/League_Gothic.eot?#iefix') format('embedded-opentype'), url('../type/League_Gothic.woff') format('woff'), url('../type/League_Gothic.ttf') format('truetype'), url('../type/type/League_Gothic.svg#webfont1Lb5Pdit') format('svg');
+}
+
+/* normalize.css v2.0.1 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/*
+ * Corrects `block` display not defined in IE 8/9.
+ */
+/* line 21, ../compass/sass/partials/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/*
+ * Corrects `inline-block` display not defined in IE 8/9.
+ */
+/* line 31, ../compass/sass/partials/_normalize.scss */
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+/*
+ * Prevents modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 40, ../compass/sass/partials/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/*
+ * Addresses styling for `hidden` attribute not present in IE 8/9.
+ */
+/* line 49, ../compass/sass/partials/_normalize.scss */
+[hidden] {
+  display: none;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/*
+ * 1. Sets default font family to sans-serif.
+ * 2. Prevents iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 63, ../compass/sass/partials/_normalize.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/*
+ * Removes default margin.
+ */
+/* line 73, ../compass/sass/partials/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/*
+ * Addresses `outline` inconsistency between Chrome and other browsers.
+ */
+/* line 85, ../compass/sass/partials/_normalize.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers.
+ */
+/* line 94, ../compass/sass/partials/_normalize.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/*
+ * Addresses `h1` font sizes within `section` and `article` in Firefox 4+,
+ * Safari 5, and Chrome.
+ */
+/* line 107, ../compass/sass/partials/_normalize.scss */
+h1 {
+  font-size: 2em;
+}
+
+/*
+ * Addresses styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+/* line 115, ../compass/sass/partials/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/*
+ * Addresses style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 124, ../compass/sass/partials/_normalize.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/*
+ * Addresses styling not present in Safari 5 and Chrome.
+ */
+/* line 132, ../compass/sass/partials/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/*
+ * Addresses styling not present in IE 8/9.
+ */
+/* line 140, ../compass/sass/partials/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/*
+ * Corrects font family set oddly in Safari 5 and Chrome.
+ */
+/* line 153, ../compass/sass/partials/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+/*
+ * Improves readability of pre-formatted text in all browsers.
+ */
+/* line 162, ../compass/sass/partials/_normalize.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/*
+ * Sets consistent quote types.
+ */
+/* line 172, ../compass/sass/partials/_normalize.scss */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/*
+ * Addresses inconsistent and variable font size in all browsers.
+ */
+/* line 180, ../compass/sass/partials/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/*
+ * Prevents `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 189, ../compass/sass/partials/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 196, ../compass/sass/partials/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 200, ../compass/sass/partials/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/*
+ * Removes border when inside `a` element in IE 8/9.
+ */
+/* line 212, ../compass/sass/partials/_normalize.scss */
+img {
+  border: 0;
+}
+
+/*
+ * Corrects overflow displayed oddly in IE 9.
+ */
+/* line 220, ../compass/sass/partials/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/*
+ * Addresses margin not present in IE 8/9 and Safari 5.
+ */
+/* line 232, ../compass/sass/partials/_normalize.scss */
+figure {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/*
+ * Define consistent border, margin, and padding.
+ */
+/* line 244, ../compass/sass/partials/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/*
+ * 1. Corrects color not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 255, ../compass/sass/partials/_normalize.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/*
+ * 1. Corrects font family not being inherited in all browsers.
+ * 2. Corrects font size not being inherited in all browsers.
+ * 3. Addresses margins set differently in Firefox 4+, Safari 5, and Chrome
+ */
+/* line 269, ../compass/sass/partials/_normalize.scss */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/*
+ * Addresses Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 281, ../compass/sass/partials/_normalize.scss */
+button,
+input {
+  line-height: normal;
+}
+
+/*
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Corrects inability to style clickable `input` types in iOS.
+ * 3. Improves usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 296, ../compass/sass/partials/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/*
+ * Re-set default cursor for disabled elements.
+ */
+/* line 306, ../compass/sass/partials/_normalize.scss */
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
+
+/*
+ * 1. Addresses box sizing set to `content-box` in IE 8/9.
+ * 2. Removes excess padding in IE 8/9.
+ */
+/* line 316, ../compass/sass/partials/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/*
+ * 1. Addresses `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 327, ../compass/sass/partials/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box;
+}
+
+/*
+ * Removes inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+/* line 340, ../compass/sass/partials/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+ * Removes inner padding and border in Firefox 4+.
+ */
+/* line 349, ../compass/sass/partials/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/*
+ * 1. Removes default vertical scrollbar in IE 8/9.
+ * 2. Improves readability and alignment in all browsers.
+ */
+/* line 359, ../compass/sass/partials/_normalize.scss */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/*
+ * Remove most spacing between table cells.
+ */
+/* line 372, ../compass/sass/partials/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+ * HTML5 Boilerplate
+ */
+/* ==========================================================================
+   Base styles
+   ========================================================================== */
+/* line 21, ../compass/sass/partials/_base.scss */
+html {
+  font-size: 62.5%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 22, ../compass/sass/partials/_base.scss */
+body {
+  margin: 0;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 150%;
+}
+
+/* line 23, ../compass/sass/partials/_base.scss */
+body, button, input, select, textarea {
+  font-family: Calibri, Candara, "Gill Sans", "Gill Sans MT", sans-serif;
+  color: #222;
+}
+
+/* line 26, ../compass/sass/partials/_base.scss */
+::-moz-selection {
+  background: #4F89A1;
+  color: #fff;
+  text-shadow: none;
+}
+
+/* line 27, ../compass/sass/partials/_base.scss */
+::selection {
+  background: #4F89A1;
+  color: #fff;
+  text-shadow: none;
+}
+
+/* line 30, ../compass/sass/partials/_base.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 33, ../compass/sass/partials/_base.scss */
+img {
+  vertical-align: middle;
+}
+
+/* line 36, ../compass/sass/partials/_base.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 39, ../compass/sass/partials/_base.scss */
+textarea {
+  resize: vertical;
+}
+
+/* line 42, ../compass/sass/partials/_base.scss */
+.chromeframe {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Project Base styles
+   ========================================================================== */
+/* line 49, ../compass/sass/partials/_base.scss */
+a {
+  color: #305361;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+  -webkit-transition: all, 1s, ease;
+  -moz-transition: all, 1s, ease;
+  -o-transition: all, 1s, ease;
+  transition: all, 1s, ease;
+}
+
+/* line 54, ../compass/sass/partials/_base.scss */
+a:hover {
+  color: #000;
+}
+
+/* line 55, ../compass/sass/partials/_base.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/* line 56, ../compass/sass/partials/_base.scss */
+a:hover, a:active {
+  outline: 0;
+}
+
+/* line 59, ../compass/sass/partials/_base.scss */
+h1 {
+  font: 2.75em/1.1 "league gothic", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+
+/* line 65, ../compass/sass/partials/_base.scss */
+ul, ol {
+  margin: 1em 0;
+  padding: 0 0 0 40px;
+}
+
+/* line 66, ../compass/sass/partials/_base.scss */
+dd {
+  margin: 0 0 0 40px;
+}
+
+/* line 67, ../compass/sass/partials/_base.scss */
+nav ul, nav ol {
+  list-style: none;
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 70, ../compass/sass/partials/_base.scss */
+.mod {
+  margin: 10px;
+}
+
+/* line 71, ../compass/sass/partials/_base.scss */
+.bd, .ft, .mod header {
+  overflow: hidden;
+  *overflow: visible;
+  zoom: 1;
+}
+
+/* line 74, ../compass/sass/partials/_base.scss */
+.media {
+  overflow: hidden;
+  *overflow: visible;
+  zoom: 1;
+}
+/* line 75, ../compass/sass/partials/_base.scss */
+.media .img {
+  float: left;
+  margin-right: 10px;
+}
+/* line 76, ../compass/sass/partials/_base.scss */
+.media .img img {
+  display: block;
+}
+/* line 78, ../compass/sass/partials/_base.scss */
+.media .imgExt {
+  float: right;
+  margin-left: 10px;
+}
+
+/*
+ * Spacing classes
+ * Should be used to modify the default spacing between objects (not between nodes of the same object)
+ * Please use judiciously. You want to be using defaults most of the time, these are exceptions!
+ * <type><location><size>
+ */
+/* line 88, ../compass/sass/partials/_base.scss */
+h1, h2, h3, h4, h5, h6, ul, ol, dl, p, blockquote, .media, form {
+  margin: 10px;
+}
+
+/* line 89, ../compass/sass/partials/_base.scss */
+h1, h2, h3, h4, h5, h6, img {
+  padding-bottom: 0px;
+}
+
+/* line 90, ../compass/sass/partials/_base.scss */
+pre {
+  margin: 10px;
+}
+
+/* line 91, ../compass/sass/partials/_base.scss */
+table h1, table h2, table h3, table h4, table h5, table h6, table p, table ul, table ol, table dl {
+  padding: 0;
+}
+
+/* spacing helpers
+ * p,m = padding,margin
+ * a,t,r,b,l,h,v = all,top,right,bottom,left,horizontal,vertical
+ * s,m,l,n = small(5px),medium(10px),large(20px),none(0px)
+ */
+/* line 99, ../compass/sass/partials/_base.scss */
+.ptn, .pvn, .pan {
+  padding-top: 0px;
+}
+
+/* line 100, ../compass/sass/partials/_base.scss */
+.pts, .pvs, .pas {
+  padding-top: 5px;
+}
+
+/* line 101, ../compass/sass/partials/_base.scss */
+.ptm, .pvm, .pam {
+  padding-top: 10px;
+}
+
+/* line 102, ../compass/sass/partials/_base.scss */
+.ptl, .pvl, .pal {
+  padding-top: 20px;
+}
+
+/* line 103, ../compass/sass/partials/_base.scss */
+.ptg, .pvg, .pag {
+  padding-top: 40px;
+}
+
+/* line 104, ../compass/sass/partials/_base.scss */
+.prn, .phn, .pan {
+  padding-right: 0px;
+}
+
+/* line 105, ../compass/sass/partials/_base.scss */
+.prs, .phs, .pas {
+  padding-right: 5px;
+}
+
+/* line 106, ../compass/sass/partials/_base.scss */
+.prm, .phm, .pam {
+  padding-right: 10px;
+}
+
+/* line 107, ../compass/sass/partials/_base.scss */
+.prl, .phl, .pal {
+  padding-right: 20px;
+}
+
+/* line 108, ../compass/sass/partials/_base.scss */
+.prg, .phg, .pag {
+  padding-right: 40px;
+}
+
+/* line 109, ../compass/sass/partials/_base.scss */
+.pbn, .pvn, .pan {
+  padding-bottom: 0px;
+}
+
+/* line 110, ../compass/sass/partials/_base.scss */
+.pbs, .pvs, .pas {
+  padding-bottom: 5px;
+}
+
+/* line 111, ../compass/sass/partials/_base.scss */
+.pbm, .pvm, .pam {
+  padding-bottom: 10px;
+}
+
+/* line 112, ../compass/sass/partials/_base.scss */
+.pbl, .pvl, .pal {
+  padding-bottom: 20px;
+}
+
+/* line 113, ../compass/sass/partials/_base.scss */
+.pbg, .pvg, .pag {
+  padding-bottom: 40px;
+}
+
+/* line 114, ../compass/sass/partials/_base.scss */
+.pln, .phn, .pan {
+  padding-left: 0px;
+}
+
+/* line 115, ../compass/sass/partials/_base.scss */
+.pls, .phs, .pas {
+  padding-left: 5px;
+}
+
+/* line 116, ../compass/sass/partials/_base.scss */
+.plm, .phm, .pam {
+  padding-left: 10px;
+}
+
+/* line 117, ../compass/sass/partials/_base.scss */
+.pll, .phl, .pal {
+  padding-left: 20px;
+}
+
+/* line 118, ../compass/sass/partials/_base.scss */
+.plg, .phg, .pag {
+  padding-left: 40px;
+}
+
+/* line 119, ../compass/sass/partials/_base.scss */
+.mtn, .mvn, .man {
+  margin-top: 0px;
+}
+
+/* line 120, ../compass/sass/partials/_base.scss */
+.mts, .mvs, .mas {
+  margin-top: 5px;
+}
+
+/* line 121, ../compass/sass/partials/_base.scss */
+.mtm, .mvm, .mam {
+  margin-top: 10px;
+}
+
+/* line 122, ../compass/sass/partials/_base.scss */
+.mtl, .mvl, .mal {
+  margin-top: 20px;
+}
+
+/* line 123, ../compass/sass/partials/_base.scss */
+.mtg, .mvg, .mag {
+  margin-top: 40px;
+}
+
+/* line 124, ../compass/sass/partials/_base.scss */
+.mrn, .mhn, .man {
+  margin-right: 0px;
+}
+
+/* line 125, ../compass/sass/partials/_base.scss */
+.mrs, .mhs, .mas {
+  margin-right: 5px;
+}
+
+/* line 126, ../compass/sass/partials/_base.scss */
+.mrm, .mhm, .mam {
+  margin-right: 10px;
+}
+
+/* line 127, ../compass/sass/partials/_base.scss */
+.mrl, .mhl, .mal {
+  margin-right: 20px;
+}
+
+/* line 128, ../compass/sass/partials/_base.scss */
+.mrg, .mhg, .mag {
+  margin-right: 40px;
+}
+
+/* line 129, ../compass/sass/partials/_base.scss */
+.mbn, .mvn, .man {
+  margin-bottom: 0px;
+}
+
+/* line 130, ../compass/sass/partials/_base.scss */
+.mbs, .mvs, .mas {
+  margin-bottom: 5px;
+}
+
+/* line 131, ../compass/sass/partials/_base.scss */
+.mbm, .mvm, .mam {
+  margin-bottom: 10px;
+}
+
+/* line 132, ../compass/sass/partials/_base.scss */
+.mbl, .mvl, .mal {
+  margin-bottom: 20px;
+}
+
+/* line 133, ../compass/sass/partials/_base.scss */
+.mbg, .mvg, .mag {
+  margin-bottom: 40px;
+}
+
+/* line 134, ../compass/sass/partials/_base.scss */
+.mln, .mhn, .man {
+  margin-left: 0px;
+}
+
+/* line 135, ../compass/sass/partials/_base.scss */
+.mls, .mhs, .mas {
+  margin-left: 5px;
+}
+
+/* line 136, ../compass/sass/partials/_base.scss */
+.mlm, .mhm, .mam {
+  margin-left: 10px;
+}
+
+/* line 137, ../compass/sass/partials/_base.scss */
+.mll, .mhl, .mal {
+  margin-left: 20px;
+}
+
+/* line 138, ../compass/sass/partials/_base.scss */
+.mlg, .mhg, .mag {
+  margin-left: 40px;
+}
+
+/* line 1, ../compass/sass/partials/_project.scss */
+html, html.oldie {
+  background-color: #E6E6E6;
+  background-image: -o-linear-gradient(white 0px, transparent 0px), -o-linear-gradient(0, white 0px, transparent 0px), -o-linear-gradient(rgba(255, 255, 255, 0.2) 1px, transparent 1px), -o-linear-gradient(0, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-image: -ms-linear-gradient(white 0px, transparent 0px), -ms-linear-gradient(0, white 0px, transparent 0px), -ms-linear-gradient(rgba(255, 255, 255, 0.2) 1px, transparent 1px), -ms-linear-gradient(0, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-image: -moz-linear-gradient(white 0px, transparent 0px), -moz-linear-gradient(0, white 0px, transparent 0px), -moz-linear-gradient(rgba(255, 255, 255, 0.2) 1px, transparent 1px), -moz-linear-gradient(0, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-image: -webkit-linear-gradient(white 0px, transparent 0px), -webkit-linear-gradient(0, white 0px, transparent 0px), -webkit-linear-gradient(rgba(255, 255, 255, 0.2) 1px, transparent 1px), -webkit-linear-gradient(0, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-image: linear-gradient(#ffffff 0px, transparent 0px), linear-gradient(0, #ffffff 0px, transparent 0px), linear-gradient(rgba(255, 255, 255, 0.2) 1px, transparent 1px), linear-gradient(0, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+  background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+}
+
+/* line 32, ../compass/sass/partials/_project.scss */
+header[role="banner"] {
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+  padding: 2em 0;
+}
+
+/* line 39, ../compass/sass/partials/_project.scss */
+.mainFooter a {
+  text-decoration: none;
+}
+
+/* line 43, ../compass/sass/partials/_project.scss */
+[role="main"] {
+  max-width: 88%;
+  margin: 0 auto 2em;
+}
+
+/* line 48, ../compass/sass/partials/_project.scss */
+.box {
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.9);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 7px 0;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 7px 0;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 7px 0;
+  border-radius: 0 0 10px 10px;
+  margin: 0 auto 2em;
+  padding: .5em;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+/* line 56, ../compass/sass/partials/_project.scss */
+.box:hover {
+  background-color: #fff;
+}
+
+/* line 61, ../compass/sass/partials/_project.scss */
+.mainFooter {
+  background-color: #4F89A1;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 -7px 0;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 -7px 0;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 -7px 0;
+  color: #FFFFFF;
+  padding: .5% 0;
+  text-align: center;
+}
+
+/* line 69, ../compass/sass/partials/_project.scss */
+.tweet ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* line 74, ../compass/sass/partials/_project.scss */
+.tweet li {
+  border-bottom: 1px dotted;
+  padding: 10px 0;
+}
+
+/* line 79, ../compass/sass/partials/_project.scss */
+.tweet li:first-child {
+  padding-top: 0;
+}
+
+/* line 83, ../compass/sass/partials/_project.scss */
+.tweet li:last-child {
+  border: 0;
+}
+
+/* line 87, ../compass/sass/partials/_project.scss */
+.simpleList {
+  padding-left: 25px;
+  margin: 0;
+  -webkit-column-width: 16em;
+  -moz-column-width: 16em;
+  -ms-column-width: 16em;
+  -o-column-width: 16em;
+  column-width: 16em;
+}
+
+/* line 93, ../compass/sass/partials/_project.scss */
+.simpleList li {
+  margin: 10px;
+}
+
+/* line 98, ../compass/sass/partials/_project.scss */
+.badges figure {
+  margin: 15px 0;
+  text-align: center;
+}
+
+/* line 104, ../compass/sass/partials/_project.scss */
+.twitters {
+  display: table;
+}
+/* line 106, ../compass/sass/partials/_project.scss */
+.twitters iframe {
+  vertical-align: text-top;
+}
+
+/* line 112, ../compass/sass/partials/_project.scss */
+form fieldset {
+  margin: 0 0 20px 0;
+}
+/* line 114, ../compass/sass/partials/_project.scss */
+form fieldset label {
+  display: block;
+  margin: 0 0 5px 0;
+  color: #4F89A1;
+}
+/* line 119, ../compass/sass/partials/_project.scss */
+form fieldset input.form-text {
+  display: block;
+  width: 95%;
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #999;
+  background: #f5f5f5;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.05) 0 5px 2px inset;
+  -moz-box-shadow: rgba(0, 0, 0, 0.05) 0 5px 2px inset;
+  box-shadow: rgba(0, 0, 0, 0.05) 0 5px 2px inset;
+  border-radius: 4px;
+}
+/* line 128, ../compass/sass/partials/_project.scss */
+form fieldset input.form-text:focus {
+  border: 1px solid #ccc;
+  background: #fff;
+}
+/* line 133, ../compass/sass/partials/_project.scss */
+form fieldset p.form-help {
+  margin: 5px 0 0 0;
+  font-size: 12px;
+  color: #999;
+}
+/* line 139, ../compass/sass/partials/_project.scss */
+form fieldset.form-actions {
+  margin: 0;
+}
+/* line 142, ../compass/sass/partials/_project.scss */
+form input[type="submit"] {
+  margin: 0;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid #999;
+  background: #eee;
+  border-radius: 4px;
+}
+/* line 150, ../compass/sass/partials/_project.scss */
+form input[type="submit"]:hover, form input[type="submit"]:focus {
+  border: 1px solid #bbb;
+  background: #e5e5e5;
+}
+/* line 154, ../compass/sass/partials/_project.scss */
+form input[type="submit"]:active {
+  border: 1px solid #ccc;
+  background: #eee;
+}
+/* line 159, ../compass/sass/partials/_project.scss */
+form input::-webkit-input-placeholder, form input:-moz-placeholder {
+  color: #ccc;
+}
+/* line 162, ../compass/sass/partials/_project.scss */
+form input:-moz-placeholder {
+  color: #ccc;
+}
+
+/* line 167, ../compass/sass/partials/_project.scss */
+.success {
+  color: green;
+}
+
+/* line 168, ../compass/sass/partials/_project.scss */
+.fail {
+  color: red;
+}
+
+/* ==|== media queries ======================================================
+   PLACEHOLDER Media Queries for Responsive Design.
+   These override the primary ('mobile first') styles
+   Modify as content requires.
+   ========================================================================== */
+@media only screen and (min-width: 768px) {
+  /* grid */
+  /* line 177, ../compass/sass/partials/_project.scss */
+  .line:after, .lastUnit:after {
+    clear: both;
+    display: block;
+    visibility: hidden;
+    overflow: hidden;
+    height: 0 !important;
+    line-height: 0;
+    font-size: xx-large;
+    content: " x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ";
+  }
+
+  /* line 178, ../compass/sass/partials/_project.scss */
+  .line {
+    *zoom: 1;
+  }
+
+  /* line 179, ../compass/sass/partials/_project.scss */
+  .unit {
+    float: left;
+  }
+
+  /* line 180, ../compass/sass/partials/_project.scss */
+  .size1of1 {
+    float: none;
+  }
+
+  /* line 181, ../compass/sass/partials/_project.scss */
+  .size1of2 {
+    width: 50%;
+  }
+
+  /* line 182, ../compass/sass/partials/_project.scss */
+  .size1of3 {
+    width: 33.33333%;
+  }
+
+  /* line 183, ../compass/sass/partials/_project.scss */
+  .size2of3 {
+    width: 66.66666%;
+  }
+
+  /* line 184, ../compass/sass/partials/_project.scss */
+  .size1of4 {
+    width: 25%;
+  }
+
+  /* line 185, ../compass/sass/partials/_project.scss */
+  .size3of4 {
+    width: 75%;
+  }
+
+  /* line 186, ../compass/sass/partials/_project.scss */
+  .size1of5 {
+    width: 20%;
+  }
+
+  /* line 187, ../compass/sass/partials/_project.scss */
+  .size2of5 {
+    width: 40%;
+  }
+
+  /* line 188, ../compass/sass/partials/_project.scss */
+  .size3of5 {
+    width: 60%;
+  }
+
+  /* line 189, ../compass/sass/partials/_project.scss */
+  .size4of5 {
+    width: 80%;
+  }
+
+  /* line 190, ../compass/sass/partials/_project.scss */
+  .size1of6 {
+    width: 16.6666666%;
+  }
+
+  /* line 191, ../compass/sass/partials/_project.scss */
+  .size5of6 {
+    width: 83.3333333%;
+  }
+
+  /* line 192, ../compass/sass/partials/_project.scss */
+  .size1of7 {
+    width: 14.2857143%;
+  }
+
+  /* line 193, ../compass/sass/partials/_project.scss */
+  .size2of7 {
+    width: 28.5714286%;
+  }
+
+  /* line 194, ../compass/sass/partials/_project.scss */
+  .size3of7 {
+    width: 42.8571429%;
+  }
+
+  /* line 195, ../compass/sass/partials/_project.scss */
+  .size4of7 {
+    width: 57.1428572%;
+  }
+
+  /* line 196, ../compass/sass/partials/_project.scss */
+  .size5of7 {
+    width: 71.4285715%;
+  }
+
+  /* line 197, ../compass/sass/partials/_project.scss */
+  .size6of7 {
+    width: 85.7142858%;
+  }
+
+  /* line 199, ../compass/sass/partials/_project.scss */
+  .size1of12
+  .lastUnit {
+    display: table-cell;
+    float: none;
+    width: auto;
+    *display: block;
+    *zoom: 1;
+    _position: relative;
+    _left: -3px;
+    _margin-right: -3px;
+  }
+
+  /* line 200, ../compass/sass/partials/_project.scss */
+  .append_size1of2 {
+    padding-right: 50%;
+  }
+
+  /* line 201, ../compass/sass/partials/_project.scss */
+  .append_size1of3 {
+    padding-right: 33.33333%;
+  }
+
+  /* line 202, ../compass/sass/partials/_project.scss */
+  .append_size2of3 {
+    padding-right: 66.66666%;
+  }
+
+  /* line 203, ../compass/sass/partials/_project.scss */
+  .append_size1of4 {
+    padding-right: 25%;
+  }
+
+  /* line 204, ../compass/sass/partials/_project.scss */
+  .append_size3of4 {
+    padding-right: 75%;
+  }
+
+  /* line 205, ../compass/sass/partials/_project.scss */
+  .append_size1of5 {
+    padding-right: 20%;
+  }
+
+  /* line 206, ../compass/sass/partials/_project.scss */
+  .append_size2of5 {
+    padding-right: 40%;
+  }
+
+  /* line 207, ../compass/sass/partials/_project.scss */
+  .append_size3of5 {
+    padding-right: 60%;
+  }
+
+  /* line 208, ../compass/sass/partials/_project.scss */
+  .append_size4of5 {
+    padding-right: 80%;
+  }
+
+  /* line 209, ../compass/sass/partials/_project.scss */
+  .append_size1of6 {
+    padding-right: 16.6666666%;
+  }
+
+  /* line 210, ../compass/sass/partials/_project.scss */
+  .append_size5of6 {
+    padding-right: 83.3333333%;
+  }
+
+  /* line 211, ../compass/sass/partials/_project.scss */
+  .append_size1of7 {
+    padding-right: 14.2857143%;
+  }
+
+  /* line 212, ../compass/sass/partials/_project.scss */
+  .append_size2of7 {
+    padding-right: 28.5714286%;
+  }
+
+  /* line 213, ../compass/sass/partials/_project.scss */
+  .append_size3of7 {
+    padding-right: 42.8571429%;
+  }
+
+  /* line 214, ../compass/sass/partials/_project.scss */
+  .append_size4of7 {
+    padding-right: 57.1428572%;
+  }
+
+  /* line 215, ../compass/sass/partials/_project.scss */
+  .append_size5of7 {
+    padding-right: 71.4285715%;
+  }
+
+  /* line 216, ../compass/sass/partials/_project.scss */
+  .append_size6of7 {
+    padding-right: 85.7142858%;
+  }
+
+  /* line 217, ../compass/sass/partials/_project.scss */
+  .prepend_size1of2 {
+    padding-left: 50%;
+  }
+
+  /* line 218, ../compass/sass/partials/_project.scss */
+  .prepend_size1of3 {
+    padding-left: 33.33333%;
+  }
+
+  /* line 219, ../compass/sass/partials/_project.scss */
+  .prepend_size2of3 {
+    padding-left: 66.66666%;
+  }
+
+  /* line 220, ../compass/sass/partials/_project.scss */
+  .prepend_size1of4 {
+    padding-left: 25%;
+  }
+
+  /* line 221, ../compass/sass/partials/_project.scss */
+  .prepend_size3of4 {
+    padding-left: 75%;
+  }
+
+  /* line 222, ../compass/sass/partials/_project.scss */
+  .prepend_size1of5 {
+    padding-left: 20%;
+  }
+
+  /* line 223, ../compass/sass/partials/_project.scss */
+  .prepend_size2of5 {
+    padding-left: 40%;
+  }
+
+  /* line 224, ../compass/sass/partials/_project.scss */
+  .prepend_size3of5 {
+    padding-left: 60%;
+  }
+
+  /* line 225, ../compass/sass/partials/_project.scss */
+  .prepend_size4of5 {
+    padding-left: 80%;
+  }
+
+  /* line 226, ../compass/sass/partials/_project.scss */
+  .prepend_size1of6 {
+    padding-left: 16.6666666%;
+  }
+
+  /* line 227, ../compass/sass/partials/_project.scss */
+  .prepend_size5of6 {
+    padding-left: 83.3333333%;
+  }
+
+  /* line 228, ../compass/sass/partials/_project.scss */
+  .prepend_size1of7 {
+    padding-left: 14.2857143%;
+  }
+
+  /* line 229, ../compass/sass/partials/_project.scss */
+  .prepend_size2of7 {
+    padding-left: 28.5714286%;
+  }
+
+  /* line 230, ../compass/sass/partials/_project.scss */
+  .prepend_size3of7 {
+    padding-left: 42.8571429%;
+  }
+
+  /* line 231, ../compass/sass/partials/_project.scss */
+  .prepend_size4of7 {
+    padding-left: 57.1428572%;
+  }
+
+  /* line 232, ../compass/sass/partials/_project.scss */
+  .prepend_size5of7 {
+    padding-left: 71.4285715%;
+  }
+
+  /* line 233, ../compass/sass/partials/_project.scss */
+  .prepend_size6of7 {
+    padding-left: 85.7142858%;
+  }
+
+  /* line 235, ../compass/sass/partials/_project.scss */
+  html {
+    background: url(../img/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  /* line 240, ../compass/sass/partials/_project.scss */
+  html.oldie {
+    background: none;
+    background-color: #E6E6E6;
+  }
+
+  /* line 245, ../compass/sass/partials/_project.scss */
+  header[role="banner"] {
+    padding-bottom: 4em;
+    width: 100%;
+  }
+
+  /* line 250, ../compass/sass/partials/_project.scss */
+  h1 {
+    font-size: 58px;
+    font-size: 5.8rem;
+    text-align: left;
+  }
+
+  /* line 255, ../compass/sass/partials/_project.scss */
+  .box {
+    margin-bottom: 4em;
+    padding: 1.25em;
+  }
+
+  /* line 260, ../compass/sass/partials/_project.scss */
+  .box:last-child {
+    margin-bottom: 0;
+  }
+
+  /* line 264, ../compass/sass/partials/_project.scss */
+  .split {
+    margin-bottom: 4em;
+  }
+
+  /* line 268, ../compass/sass/partials/_project.scss */
+  .split .unit:nth-child(2n+1) .box {
+    margin-right: 5%;
+  }
+
+  /* line 272, ../compass/sass/partials/_project.scss */
+  .split .unit:nth-child(2n) .box {
+    margin-left: 5%;
+  }
+
+  /* line 276, ../compass/sass/partials/_project.scss */
+  html.oldie .split .box {
+    margin: auto 5%;
+  }
+
+  /* line 281, ../compass/sass/partials/_project.scss */
+  .badges figure {
+    margin: 0;
+  }
+
+  /* line 286, ../compass/sass/partials/_project.scss */
+  .simpleList {
+    padding-left: 20px;
+  }
+
+  /* line 290, ../compass/sass/partials/_project.scss */
+  .no-csscolumns .simpleList li {
+    float: left;
+    margin-right: 4%;
+    word-wrap: word-break;
+  }
+}
+/* ==|== non-semantic helper classes ======================================== */
+/* line 4, ../compass/sass/partials/_helpers.scss */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  /* IE 6/7 fallback */
+  *text-indent: -9999px;
+}
+
+/* line 12, ../compass/sass/partials/_helpers.scss */
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 100%;
+}
+
+/* line 20, ../compass/sass/partials/_helpers.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/* line 26, ../compass/sass/partials/_helpers.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* line 39, ../compass/sass/partials/_helpers.scss */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* line 49, ../compass/sass/partials/_helpers.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/* Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+/* line 63, ../compass/sass/partials/_helpers.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 68, ../compass/sass/partials/_helpers.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 73, ../compass/sass/partials/_helpers.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+@media print {
+  /* line 2, ../compass/sass/partials/_print.scss */
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster: h5bp.com/s */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* line 10, ../compass/sass/partials/_print.scss */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 14, ../compass/sass/partials/_print.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 18, ../compass/sass/partials/_print.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /*
+   * Don't show links for images, or javascript/internal links
+   */
+  /* line 28, ../compass/sass/partials/_print.scss */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  /* line 33, ../compass/sass/partials/_print.scss */
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /* line 38, ../compass/sass/partials/_print.scss */
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */
+  }
+
+  /* line 43, ../compass/sass/partials/_print.scss */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  /* line 47, ../compass/sass/partials/_print.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+}
+
+  /* line 57, ../compass/sass/partials/_print.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 63, ../compass/sass/partials/_print.scss */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
