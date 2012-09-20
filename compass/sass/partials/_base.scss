@@ -21,6 +21,7 @@
 html { font-size: 62.5%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 body { margin: 0; @include font-size(); line-height: 150%; }
 body, button, input, select, textarea { @include typeface; }
+img, object { max-width: 100%; }
 
 // A better looking default horizontal rule
 ::-moz-selection { background: #4F89A1; color: #fff; text-shadow: none; }
