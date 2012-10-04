@@ -395,7 +395,6 @@ table {
    ========================================================================== */
 /* line 21, ../compass/sass/partials/_base.scss */
 html {
-  font-size: 62.5%;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
@@ -403,9 +402,6 @@ html {
 /* line 22, ../compass/sass/partials/_base.scss */
 body {
   margin: 0;
-  font-size: 16px;
-  font-size: 1.6rem;
-  line-height: 150%;
 }
 
 /* line 23, ../compass/sass/partials/_base.scss */
@@ -434,33 +430,23 @@ img, object {
 }
 
 /* line 31, ../compass/sass/partials/_base.scss */
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
-}
-
-/* line 34, ../compass/sass/partials/_base.scss */
 img {
   vertical-align: middle;
 }
 
-/* line 37, ../compass/sass/partials/_base.scss */
+/* line 34, ../compass/sass/partials/_base.scss */
 fieldset {
   border: 0;
   margin: 0;
   padding: 0;
 }
 
-/* line 40, ../compass/sass/partials/_base.scss */
+/* line 37, ../compass/sass/partials/_base.scss */
 textarea {
   resize: vertical;
 }
 
-/* line 43, ../compass/sass/partials/_base.scss */
+/* line 40, ../compass/sass/partials/_base.scss */
 .chromeframe {
   margin: 0.2em 0;
   background: #ccc;
@@ -471,7 +457,38 @@ textarea {
 /* ==========================================================================
    Project Base styles
    ========================================================================== */
-/* line 50, ../compass/sass/partials/_base.scss */
+/*
+ * Spacing classes
+ * Should be used to modify the default spacing between objects (not between nodes of the same object)
+ * Please use judiciously. You want to be using defaults most of the time, these are exceptions!
+ * <type><location><size>
+ */
+/* line 52, ../compass/sass/partials/_base.scss */
+h1, h2, h3, h4, h5, h6, ul, ol, dl, p, blockquote, .media, form {
+  margin: 0 10px;
+}
+
+/* line 53, ../compass/sass/partials/_base.scss */
+h1, h2, h3, h4, h5, h6, img {
+  padding-bottom: 0px;
+}
+
+/* line 54, ../compass/sass/partials/_base.scss */
+pre {
+  margin: 0 10px;
+}
+
+/* line 55, ../compass/sass/partials/_base.scss */
+table h1, table h2, table h3, table h4, table h5, table h6, table p, table ul, table ol, table dl {
+  padding: 0;
+}
+
+/* line 56, ../compass/sass/partials/_base.scss */
+p, figure {
+  margin-bottom: 1.5em;
+}
+
+/* line 59, ../compass/sass/partials/_base.scss */
 a {
   color: #305361;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
@@ -481,39 +498,47 @@ a {
   transition: all, 1s, ease;
 }
 
-/* line 55, ../compass/sass/partials/_base.scss */
+/* line 64, ../compass/sass/partials/_base.scss */
 a:hover {
   color: #000;
 }
 
-/* line 56, ../compass/sass/partials/_base.scss */
+/* line 65, ../compass/sass/partials/_base.scss */
 a:focus {
   outline: thin dotted;
 }
 
-/* line 57, ../compass/sass/partials/_base.scss */
+/* line 66, ../compass/sass/partials/_base.scss */
 a:hover, a:active {
   outline: 0;
 }
 
-/* line 60, ../compass/sass/partials/_base.scss */
+/* line 69, ../compass/sass/partials/_base.scss */
 h1 {
-  font: 2.75em/1.1 "league gothic", "Arial Narrow", Arial, sans-serif;
+  font-family: "league gothic","Arial Narrow",Arial,sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
   text-align: center;
+  font-size: 2.75em;
+  line-height: 1.09091em;
+  margin-top: 0.54545em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 0.54545em;
 }
 
-/* line 66, ../compass/sass/partials/_base.scss */
+/* line 79, ../compass/sass/partials/_base.scss */
 ul, ol {
-  margin: 1em 0;
+  margin: 0 10px;
   padding: 0 0 0 40px;
 }
 
-/* line 67, ../compass/sass/partials/_base.scss */
+/* line 80, ../compass/sass/partials/_base.scss */
 dd {
   margin: 0 0 0 40px;
 }
 
-/* line 68, ../compass/sass/partials/_base.scss */
+/* line 81, ../compass/sass/partials/_base.scss */
 nav ul, nav ol {
   list-style: none;
   list-style-image: none;
@@ -521,272 +546,59 @@ nav ul, nav ol {
   padding: 0;
 }
 
-/* line 71, ../compass/sass/partials/_base.scss */
+/* line 84, ../compass/sass/partials/_base.scss */
 .mod {
-  margin: 10px;
+  margin: 0 10px;
 }
 
-/* line 72, ../compass/sass/partials/_base.scss */
+/* line 85, ../compass/sass/partials/_base.scss */
 .bd, .ft, .mod header {
   overflow: hidden;
   *overflow: visible;
   zoom: 1;
 }
 
-/* line 75, ../compass/sass/partials/_base.scss */
+/* line 88, ../compass/sass/partials/_base.scss */
 .media {
   overflow: hidden;
   *overflow: visible;
   zoom: 1;
 }
-/* line 76, ../compass/sass/partials/_base.scss */
+/* line 89, ../compass/sass/partials/_base.scss */
 .media .img {
   float: left;
   margin-right: 10px;
 }
-/* line 77, ../compass/sass/partials/_base.scss */
+/* line 90, ../compass/sass/partials/_base.scss */
 .media .img img {
   display: block;
 }
-/* line 79, ../compass/sass/partials/_base.scss */
+/* line 92, ../compass/sass/partials/_base.scss */
 .media .imgExt {
   float: right;
   margin-left: 10px;
 }
 
-/*
- * Spacing classes
- * Should be used to modify the default spacing between objects (not between nodes of the same object)
- * Please use judiciously. You want to be using defaults most of the time, these are exceptions!
- * <type><location><size>
- */
-/* line 89, ../compass/sass/partials/_base.scss */
-h1, h2, h3, h4, h5, h6, ul, ol, dl, p, blockquote, .media, form {
-  margin: 10px;
+/* line 14, ../../../../../Library/Ruby/Gems/1.8/gems/susy-1.0.1/sass/susy/_grid.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-/* line 90, ../compass/sass/partials/_base.scss */
-h1, h2, h3, h4, h5, h6, img {
-  padding-bottom: 0px;
+/* line 61, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+* html {
+  font-size: 100%;
 }
 
-/* line 91, ../compass/sass/partials/_base.scss */
-pre {
-  margin: 10px;
-}
-
-/* line 92, ../compass/sass/partials/_base.scss */
-table h1, table h2, table h3, table h4, table h5, table h6, table p, table ul, table ol, table dl {
-  padding: 0;
-}
-
-/* spacing helpers
- * p,m = padding,margin
- * a,t,r,b,l,h,v = all,top,right,bottom,left,horizontal,vertical
- * s,m,l,n = small(5px),medium(10px),large(20px),none(0px)
- */
-/* line 100, ../compass/sass/partials/_base.scss */
-.ptn, .pvn, .pan {
-  padding-top: 0px;
-}
-
-/* line 101, ../compass/sass/partials/_base.scss */
-.pts, .pvs, .pas {
-  padding-top: 5px;
-}
-
-/* line 102, ../compass/sass/partials/_base.scss */
-.ptm, .pvm, .pam {
-  padding-top: 10px;
-}
-
-/* line 103, ../compass/sass/partials/_base.scss */
-.ptl, .pvl, .pal {
-  padding-top: 20px;
-}
-
-/* line 104, ../compass/sass/partials/_base.scss */
-.ptg, .pvg, .pag {
-  padding-top: 40px;
-}
-
-/* line 105, ../compass/sass/partials/_base.scss */
-.prn, .phn, .pan {
-  padding-right: 0px;
-}
-
-/* line 106, ../compass/sass/partials/_base.scss */
-.prs, .phs, .pas {
-  padding-right: 5px;
-}
-
-/* line 107, ../compass/sass/partials/_base.scss */
-.prm, .phm, .pam {
-  padding-right: 10px;
-}
-
-/* line 108, ../compass/sass/partials/_base.scss */
-.prl, .phl, .pal {
-  padding-right: 20px;
-}
-
-/* line 109, ../compass/sass/partials/_base.scss */
-.prg, .phg, .pag {
-  padding-right: 40px;
-}
-
-/* line 110, ../compass/sass/partials/_base.scss */
-.pbn, .pvn, .pan {
-  padding-bottom: 0px;
-}
-
-/* line 111, ../compass/sass/partials/_base.scss */
-.pbs, .pvs, .pas {
-  padding-bottom: 5px;
-}
-
-/* line 112, ../compass/sass/partials/_base.scss */
-.pbm, .pvm, .pam {
-  padding-bottom: 10px;
-}
-
-/* line 113, ../compass/sass/partials/_base.scss */
-.pbl, .pvl, .pal {
-  padding-bottom: 20px;
-}
-
-/* line 114, ../compass/sass/partials/_base.scss */
-.pbg, .pvg, .pag {
-  padding-bottom: 40px;
-}
-
-/* line 115, ../compass/sass/partials/_base.scss */
-.pln, .phn, .pan {
-  padding-left: 0px;
-}
-
-/* line 116, ../compass/sass/partials/_base.scss */
-.pls, .phs, .pas {
-  padding-left: 5px;
-}
-
-/* line 117, ../compass/sass/partials/_base.scss */
-.plm, .phm, .pam {
-  padding-left: 10px;
-}
-
-/* line 118, ../compass/sass/partials/_base.scss */
-.pll, .phl, .pal {
-  padding-left: 20px;
-}
-
-/* line 119, ../compass/sass/partials/_base.scss */
-.plg, .phg, .pag {
-  padding-left: 40px;
-}
-
-/* line 120, ../compass/sass/partials/_base.scss */
-.mtn, .mvn, .man {
-  margin-top: 0px;
-}
-
-/* line 121, ../compass/sass/partials/_base.scss */
-.mts, .mvs, .mas {
-  margin-top: 5px;
-}
-
-/* line 122, ../compass/sass/partials/_base.scss */
-.mtm, .mvm, .mam {
-  margin-top: 10px;
-}
-
-/* line 123, ../compass/sass/partials/_base.scss */
-.mtl, .mvl, .mal {
-  margin-top: 20px;
-}
-
-/* line 124, ../compass/sass/partials/_base.scss */
-.mtg, .mvg, .mag {
-  margin-top: 40px;
-}
-
-/* line 125, ../compass/sass/partials/_base.scss */
-.mrn, .mhn, .man {
-  margin-right: 0px;
-}
-
-/* line 126, ../compass/sass/partials/_base.scss */
-.mrs, .mhs, .mas {
-  margin-right: 5px;
-}
-
-/* line 127, ../compass/sass/partials/_base.scss */
-.mrm, .mhm, .mam {
-  margin-right: 10px;
-}
-
-/* line 128, ../compass/sass/partials/_base.scss */
-.mrl, .mhl, .mal {
-  margin-right: 20px;
-}
-
-/* line 129, ../compass/sass/partials/_base.scss */
-.mrg, .mhg, .mag {
-  margin-right: 40px;
-}
-
-/* line 130, ../compass/sass/partials/_base.scss */
-.mbn, .mvn, .man {
-  margin-bottom: 0px;
-}
-
-/* line 131, ../compass/sass/partials/_base.scss */
-.mbs, .mvs, .mas {
-  margin-bottom: 5px;
-}
-
-/* line 132, ../compass/sass/partials/_base.scss */
-.mbm, .mvm, .mam {
-  margin-bottom: 10px;
-}
-
-/* line 133, ../compass/sass/partials/_base.scss */
-.mbl, .mvl, .mal {
-  margin-bottom: 20px;
-}
-
-/* line 134, ../compass/sass/partials/_base.scss */
-.mbg, .mvg, .mag {
-  margin-bottom: 40px;
-}
-
-/* line 135, ../compass/sass/partials/_base.scss */
-.mln, .mhn, .man {
-  margin-left: 0px;
-}
-
-/* line 136, ../compass/sass/partials/_base.scss */
-.mls, .mhs, .mas {
-  margin-left: 5px;
-}
-
-/* line 137, ../compass/sass/partials/_base.scss */
-.mlm, .mhm, .mam {
-  margin-left: 10px;
-}
-
-/* line 138, ../compass/sass/partials/_base.scss */
-.mll, .mhl, .mal {
-  margin-left: 20px;
-}
-
-/* line 139, ../compass/sass/partials/_base.scss */
-.mlg, .mhg, .mag {
-  margin-left: 40px;
+/* line 64, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+  font-size: 16px;
+  line-height: 1.5em;
 }
 
 /* line 1, ../compass/sass/partials/_project.scss */
-html, html.oldie {
+html {
   background-color: #E6E6E6;
   background-image: -o-linear-gradient(white 0px, transparent 0px), -o-linear-gradient(0, white 0px, transparent 0px), -o-linear-gradient(rgba(255, 255, 255, 0.2) 1px, transparent 1px), -o-linear-gradient(0, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
   background-image: -ms-linear-gradient(white 0px, transparent 0px), -ms-linear-gradient(0, white 0px, transparent 0px), -ms-linear-gradient(rgba(255, 255, 255, 0.2) 1px, transparent 1px), -ms-linear-gradient(0, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
@@ -796,27 +608,91 @@ html, html.oldie {
   background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
   background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
 }
+@media (min-width: 47.9375em) {
+  /* line 1, ../compass/sass/partials/_project.scss */
+  html {
+    background: url(../img/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
 
-/* line 32, ../compass/sass/partials/_project.scss */
+@media (min-width: 47.9375em) {
+  /* line 37, ../compass/sass/partials/_project.scss */
+  html.oldie {
+    background: none;
+    background-color: #E6E6E6;
+  }
+}
+
+/* line 44, ../compass/sass/partials/_project.scss */
+[role="main"] {
+  *zoom: 1;
+  max-width: 70em;
+  _width: 70em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+/* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+[role="main"]:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (min-width: 47.9375em) {
+  /* line 44, ../compass/sass/partials/_project.scss */
+  [role="main"] {
+    max-width: 70em;
+  }
+}
+@media (min-width: 47.9375em) {
+  /* line 44, ../compass/sass/partials/_project.scss */
+  [role="main"] {
+    max-width: 70em;
+  }
+}
+
+/* line 52, ../compass/sass/partials/_project.scss */
 header[role="banner"] {
   margin: 0 auto;
   width: 90%;
   text-align: center;
-  padding: 2em 0;
+  margin-top: 1.5em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 1.5em;
+}
+@media (min-width: 47.9375em) {
+  /* line 52, ../compass/sass/partials/_project.scss */
+  header[role="banner"] {
+    margin-bottom: 3em;
+  }
 }
 
-/* line 39, ../compass/sass/partials/_project.scss */
+/* line 63, ../compass/sass/partials/_project.scss */
+.mainFooter {
+  display: inline-block;
+  width: 100%;
+  padding-top: 1.5em;
+}
+
+/* line 69, ../compass/sass/partials/_project.scss */
 .mainFooter a {
   text-decoration: none;
 }
 
-/* line 43, ../compass/sass/partials/_project.scss */
-[role="main"] {
-  max-width: 88%;
-  margin: 0 auto 2em;
+/* line 73, ../compass/sass/partials/_project.scss */
+.split {
+  clear: both;
+  overflow: hidden;
+  *zoom: 1;
 }
 
-/* line 48, ../compass/sass/partials/_project.scss */
+/* line 78, ../compass/sass/partials/_project.scss */
 .box {
   background-color: #fff;
   background-color: rgba(255, 255, 255, 0.9);
@@ -824,55 +700,80 @@ header[role="banner"] {
   -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 7px 0;
   box-shadow: rgba(0, 0, 0, 0.5) 0 7px 0;
   border-radius: 0 0 10px 10px;
-  margin: 0 auto 2em;
-  padding: .5em;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  transition: all 1s ease;
+  margin: 0 auto;
+  padding: 0 .5em;
+  width: 100%;
+  margin-bottom: 1.5em;
+  -webkit-transition: background 1s ease;
+  -moz-transition: background 1s ease;
+  -o-transition: background 1s ease;
+  transition: background 1s ease;
 }
-/* line 56, ../compass/sass/partials/_project.scss */
+/* line 88, ../compass/sass/partials/_project.scss */
 .box:hover {
   background-color: #fff;
 }
+/* line 92, ../compass/sass/partials/_project.scss */
+.box:nth-child(2n) {
+  float: right;
+  margin-right: 0;
+  #margin-left: -5%;
+  display: inline;
+}
+@media (min-width: 47.9375em) {
+  /* line 78, ../compass/sass/partials/_project.scss */
+  .box {
+    width: 47.57282%;
+    float: left;
+    margin-right: 4.85437%;
+    margin-bottom: 3em;
+  }
+}
 
-/* line 61, ../compass/sass/partials/_project.scss */
+/* line 102, ../compass/sass/partials/_project.scss */
+.who {
+  width: 100%;
+}
+
+/* line 106, ../compass/sass/partials/_project.scss */
 .mainFooter {
   background-color: #4F89A1;
   -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 -7px 0;
   -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 -7px 0;
   box-shadow: rgba(0, 0, 0, 0.5) 0 -7px 0;
   color: #FFFFFF;
-  padding: .5% 0;
   text-align: center;
 }
 
-/* line 69, ../compass/sass/partials/_project.scss */
+/* line 113, ../compass/sass/partials/_project.scss */
 .tweet ul {
   list-style-type: none;
   padding: 0;
 }
 
-/* line 74, ../compass/sass/partials/_project.scss */
+/* line 118, ../compass/sass/partials/_project.scss */
 .tweet li {
   border-bottom: 1px dotted;
-  padding: 10px 0;
+  margin-bottom: 1.5em;
+  padding-bottom: 1.5em;
 }
 
-/* line 79, ../compass/sass/partials/_project.scss */
+/* line 124, ../compass/sass/partials/_project.scss */
 .tweet li:first-child {
   padding-top: 0;
 }
 
-/* line 83, ../compass/sass/partials/_project.scss */
+/* line 128, ../compass/sass/partials/_project.scss */
 .tweet li:last-child {
   border: 0;
+  padding-bottom: 0;
 }
 
-/* line 87, ../compass/sass/partials/_project.scss */
+/* line 133, ../compass/sass/partials/_project.scss */
 .simpleList {
   padding-left: 25px;
   margin: 0;
+  margin-bottom: 1.5em;
   -webkit-column-width: 16em;
   -moz-column-width: 16em;
   -ms-column-width: 16em;
@@ -880,42 +781,38 @@ header[role="banner"] {
   column-width: 16em;
 }
 
-/* line 93, ../compass/sass/partials/_project.scss */
+/* line 140, ../compass/sass/partials/_project.scss */
 .simpleList li {
-  margin: 10px;
+  margin: 0 10px;
 }
 
-/* line 98, ../compass/sass/partials/_project.scss */
+/* line 145, ../compass/sass/partials/_project.scss */
 .badges figure {
-  margin: 15px 0;
   text-align: center;
 }
 
-/* line 104, ../compass/sass/partials/_project.scss */
+/* line 150, ../compass/sass/partials/_project.scss */
 .twitters {
   display: table;
 }
-/* line 106, ../compass/sass/partials/_project.scss */
+/* line 152, ../compass/sass/partials/_project.scss */
 .twitters iframe {
   vertical-align: text-top;
 }
 
-/* line 112, ../compass/sass/partials/_project.scss */
-form fieldset {
-  margin: 0 0 20px 0;
-}
-/* line 114, ../compass/sass/partials/_project.scss */
+/* line 159, ../compass/sass/partials/_project.scss */
 form fieldset label {
   display: block;
-  margin: 0 0 5px 0;
   color: #4F89A1;
 }
-/* line 119, ../compass/sass/partials/_project.scss */
+/* line 163, ../compass/sass/partials/_project.scss */
 form fieldset input.form-text {
   display: block;
   width: 95%;
-  padding: 5px;
-  font-size: 14px;
+  font-size: 1.125em;
+  line-height: 1.33333em;
+  padding: 0.33333em;
+  margin-bottom: 0.66667em;
   border: 1px solid #999;
   background: #f5f5f5;
   -webkit-box-shadow: rgba(0, 0, 0, 0.05) 0 5px 2px inset;
@@ -923,56 +820,56 @@ form fieldset input.form-text {
   box-shadow: rgba(0, 0, 0, 0.05) 0 5px 2px inset;
   border-radius: 4px;
 }
-/* line 128, ../compass/sass/partials/_project.scss */
+/* line 173, ../compass/sass/partials/_project.scss */
 form fieldset input.form-text:focus {
   border: 1px solid #ccc;
   background: #fff;
 }
-/* line 133, ../compass/sass/partials/_project.scss */
+/* line 178, ../compass/sass/partials/_project.scss */
 form fieldset p.form-help {
-  margin: 5px 0 0 0;
-  font-size: 12px;
   color: #999;
 }
-/* line 139, ../compass/sass/partials/_project.scss */
+/* line 182, ../compass/sass/partials/_project.scss */
 form fieldset.form-actions {
   margin: 0;
 }
-/* line 142, ../compass/sass/partials/_project.scss */
+/* line 185, ../compass/sass/partials/_project.scss */
 form input[type="submit"] {
   margin: 0;
-  padding: 5px 10px;
-  font-size: 12px;
+  font-size: 1.125em;
+  line-height: 1.33333em;
+  padding: 0.33333em 10px;
+  margin-bottom: 0.66667em;
   font-weight: bold;
   border: 1px solid #999;
   background: #eee;
   border-radius: 4px;
 }
-/* line 150, ../compass/sass/partials/_project.scss */
+/* line 194, ../compass/sass/partials/_project.scss */
 form input[type="submit"]:hover, form input[type="submit"]:focus {
   border: 1px solid #bbb;
   background: #e5e5e5;
 }
-/* line 154, ../compass/sass/partials/_project.scss */
+/* line 198, ../compass/sass/partials/_project.scss */
 form input[type="submit"]:active {
   border: 1px solid #ccc;
   background: #eee;
 }
-/* line 159, ../compass/sass/partials/_project.scss */
+/* line 203, ../compass/sass/partials/_project.scss */
 form input::-webkit-input-placeholder, form input:-moz-placeholder {
   color: #ccc;
 }
-/* line 162, ../compass/sass/partials/_project.scss */
+/* line 206, ../compass/sass/partials/_project.scss */
 form input:-moz-placeholder {
   color: #ccc;
 }
 
-/* line 167, ../compass/sass/partials/_project.scss */
+/* line 211, ../compass/sass/partials/_project.scss */
 .success {
   color: green;
 }
 
-/* line 168, ../compass/sass/partials/_project.scss */
+/* line 212, ../compass/sass/partials/_project.scss */
 .fail {
   color: red;
 }
@@ -983,372 +880,22 @@ form input:-moz-placeholder {
    Modify as content requires.
    ========================================================================== */
 @media only screen and (min-width: 768px) {
-  /* grid */
-  /* line 177, ../compass/sass/partials/_project.scss */
-  .line:after, .lastUnit:after {
-    clear: both;
-    display: block;
-    visibility: hidden;
-    overflow: hidden;
-    height: 0 !important;
-    line-height: 0;
-    font-size: xx-large;
-    content: " x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ";
-  }
-
-  /* line 178, ../compass/sass/partials/_project.scss */
-  .line {
-    *zoom: 1;
-  }
-
-  /* line 179, ../compass/sass/partials/_project.scss */
-  .unit {
-    float: left;
-  }
-
-  /* line 180, ../compass/sass/partials/_project.scss */
-  .size1of1 {
-    float: none;
-  }
-
-  /* line 181, ../compass/sass/partials/_project.scss */
-  .size1of2 {
-    width: 50%;
-  }
-
-  /* line 182, ../compass/sass/partials/_project.scss */
-  .size1of3 {
-    width: 33.33333%;
-  }
-
-  /* line 183, ../compass/sass/partials/_project.scss */
-  .size2of3 {
-    width: 66.66666%;
-  }
-
-  /* line 184, ../compass/sass/partials/_project.scss */
-  .size1of4 {
-    width: 25%;
-  }
-
-  /* line 185, ../compass/sass/partials/_project.scss */
-  .size3of4 {
-    width: 75%;
-  }
-
-  /* line 186, ../compass/sass/partials/_project.scss */
-  .size1of5 {
-    width: 20%;
-  }
-
-  /* line 187, ../compass/sass/partials/_project.scss */
-  .size2of5 {
-    width: 40%;
-  }
-
-  /* line 188, ../compass/sass/partials/_project.scss */
-  .size3of5 {
-    width: 60%;
-  }
-
-  /* line 189, ../compass/sass/partials/_project.scss */
-  .size4of5 {
-    width: 80%;
-  }
-
-  /* line 190, ../compass/sass/partials/_project.scss */
-  .size1of6 {
-    width: 16.6666666%;
-  }
-
-  /* line 191, ../compass/sass/partials/_project.scss */
-  .size5of6 {
-    width: 83.3333333%;
-  }
-
-  /* line 192, ../compass/sass/partials/_project.scss */
-  .size1of7 {
-    width: 14.2857143%;
-  }
-
-  /* line 193, ../compass/sass/partials/_project.scss */
-  .size2of7 {
-    width: 28.5714286%;
-  }
-
-  /* line 194, ../compass/sass/partials/_project.scss */
-  .size3of7 {
-    width: 42.8571429%;
-  }
-
-  /* line 195, ../compass/sass/partials/_project.scss */
-  .size4of7 {
-    width: 57.1428572%;
-  }
-
-  /* line 196, ../compass/sass/partials/_project.scss */
-  .size5of7 {
-    width: 71.4285715%;
-  }
-
-  /* line 197, ../compass/sass/partials/_project.scss */
-  .size6of7 {
-    width: 85.7142858%;
-  }
-
-  /* line 199, ../compass/sass/partials/_project.scss */
-  .size1of12
-  .lastUnit {
-    display: table-cell;
-    float: none;
-    width: auto;
-    *display: block;
-    *zoom: 1;
-    _position: relative;
-    _left: -3px;
-    _margin-right: -3px;
-  }
-
-  /* line 200, ../compass/sass/partials/_project.scss */
-  .append_size1of2 {
-    padding-right: 50%;
-  }
-
-  /* line 201, ../compass/sass/partials/_project.scss */
-  .append_size1of3 {
-    padding-right: 33.33333%;
-  }
-
-  /* line 202, ../compass/sass/partials/_project.scss */
-  .append_size2of3 {
-    padding-right: 66.66666%;
-  }
-
-  /* line 203, ../compass/sass/partials/_project.scss */
-  .append_size1of4 {
-    padding-right: 25%;
-  }
-
-  /* line 204, ../compass/sass/partials/_project.scss */
-  .append_size3of4 {
-    padding-right: 75%;
-  }
-
-  /* line 205, ../compass/sass/partials/_project.scss */
-  .append_size1of5 {
-    padding-right: 20%;
-  }
-
-  /* line 206, ../compass/sass/partials/_project.scss */
-  .append_size2of5 {
-    padding-right: 40%;
-  }
-
-  /* line 207, ../compass/sass/partials/_project.scss */
-  .append_size3of5 {
-    padding-right: 60%;
-  }
-
-  /* line 208, ../compass/sass/partials/_project.scss */
-  .append_size4of5 {
-    padding-right: 80%;
-  }
-
-  /* line 209, ../compass/sass/partials/_project.scss */
-  .append_size1of6 {
-    padding-right: 16.6666666%;
-  }
-
-  /* line 210, ../compass/sass/partials/_project.scss */
-  .append_size5of6 {
-    padding-right: 83.3333333%;
-  }
-
-  /* line 211, ../compass/sass/partials/_project.scss */
-  .append_size1of7 {
-    padding-right: 14.2857143%;
-  }
-
-  /* line 212, ../compass/sass/partials/_project.scss */
-  .append_size2of7 {
-    padding-right: 28.5714286%;
-  }
-
-  /* line 213, ../compass/sass/partials/_project.scss */
-  .append_size3of7 {
-    padding-right: 42.8571429%;
-  }
-
-  /* line 214, ../compass/sass/partials/_project.scss */
-  .append_size4of7 {
-    padding-right: 57.1428572%;
-  }
-
-  /* line 215, ../compass/sass/partials/_project.scss */
-  .append_size5of7 {
-    padding-right: 71.4285715%;
-  }
-
-  /* line 216, ../compass/sass/partials/_project.scss */
-  .append_size6of7 {
-    padding-right: 85.7142858%;
-  }
-
-  /* line 217, ../compass/sass/partials/_project.scss */
-  .prepend_size1of2 {
-    padding-left: 50%;
-  }
-
-  /* line 218, ../compass/sass/partials/_project.scss */
-  .prepend_size1of3 {
-    padding-left: 33.33333%;
-  }
-
-  /* line 219, ../compass/sass/partials/_project.scss */
-  .prepend_size2of3 {
-    padding-left: 66.66666%;
-  }
-
   /* line 220, ../compass/sass/partials/_project.scss */
-  .prepend_size1of4 {
-    padding-left: 25%;
-  }
-
-  /* line 221, ../compass/sass/partials/_project.scss */
-  .prepend_size3of4 {
-    padding-left: 75%;
-  }
-
-  /* line 222, ../compass/sass/partials/_project.scss */
-  .prepend_size1of5 {
-    padding-left: 20%;
-  }
-
-  /* line 223, ../compass/sass/partials/_project.scss */
-  .prepend_size2of5 {
-    padding-left: 40%;
-  }
-
-  /* line 224, ../compass/sass/partials/_project.scss */
-  .prepend_size3of5 {
-    padding-left: 60%;
-  }
-
-  /* line 225, ../compass/sass/partials/_project.scss */
-  .prepend_size4of5 {
-    padding-left: 80%;
-  }
-
-  /* line 226, ../compass/sass/partials/_project.scss */
-  .prepend_size1of6 {
-    padding-left: 16.6666666%;
-  }
-
-  /* line 227, ../compass/sass/partials/_project.scss */
-  .prepend_size5of6 {
-    padding-left: 83.3333333%;
-  }
-
-  /* line 228, ../compass/sass/partials/_project.scss */
-  .prepend_size1of7 {
-    padding-left: 14.2857143%;
-  }
-
-  /* line 229, ../compass/sass/partials/_project.scss */
-  .prepend_size2of7 {
-    padding-left: 28.5714286%;
-  }
-
-  /* line 230, ../compass/sass/partials/_project.scss */
-  .prepend_size3of7 {
-    padding-left: 42.8571429%;
-  }
-
-  /* line 231, ../compass/sass/partials/_project.scss */
-  .prepend_size4of7 {
-    padding-left: 57.1428572%;
-  }
-
-  /* line 232, ../compass/sass/partials/_project.scss */
-  .prepend_size5of7 {
-    padding-left: 71.4285715%;
-  }
-
-  /* line 233, ../compass/sass/partials/_project.scss */
-  .prepend_size6of7 {
-    padding-left: 85.7142858%;
-  }
-
-  /* line 235, ../compass/sass/partials/_project.scss */
-  html {
-    background: url(../img/bg.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-
-  /* line 240, ../compass/sass/partials/_project.scss */
-  html.oldie {
-    background: none;
-    background-color: #E6E6E6;
-  }
-
-  /* line 245, ../compass/sass/partials/_project.scss */
   header[role="banner"] {
-    padding-bottom: 4em;
     width: 100%;
   }
 
-  /* line 250, ../compass/sass/partials/_project.scss */
+  /* line 224, ../compass/sass/partials/_project.scss */
   h1 {
-    font-size: 58px;
-    font-size: 5.8rem;
     text-align: left;
   }
 
-  /* line 255, ../compass/sass/partials/_project.scss */
-  .box {
-    margin-bottom: 4em;
-    padding: 1.25em;
-  }
-
-  /* line 260, ../compass/sass/partials/_project.scss */
-  .box:last-child {
-    margin-bottom: 0;
-  }
-
-  /* line 264, ../compass/sass/partials/_project.scss */
-  .split {
-    margin-bottom: 4em;
-  }
-
-  /* line 268, ../compass/sass/partials/_project.scss */
-  .split .unit:nth-child(2n+1) .box {
-    margin-right: 5%;
-  }
-
-  /* line 272, ../compass/sass/partials/_project.scss */
-  .split .unit:nth-child(2n) .box {
-    margin-left: 5%;
-  }
-
-  /* line 276, ../compass/sass/partials/_project.scss */
-  html.oldie .split .box {
-    margin: auto 5%;
-  }
-
-  /* line 281, ../compass/sass/partials/_project.scss */
-  .badges figure {
-    margin: 0;
-  }
-
-  /* line 286, ../compass/sass/partials/_project.scss */
+  /* line 228, ../compass/sass/partials/_project.scss */
   .simpleList {
     padding-left: 20px;
   }
 
-  /* line 290, ../compass/sass/partials/_project.scss */
+  /* line 232, ../compass/sass/partials/_project.scss */
   .no-csscolumns .simpleList li {
     float: left;
     margin-right: 4%;
