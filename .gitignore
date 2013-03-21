@@ -9,4 +9,4 @@ publish
 intermediate
 nbproject
 nbproject/private/private.xml
-compass/.sass-cache
+.sass-cache
