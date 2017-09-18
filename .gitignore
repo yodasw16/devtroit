@@ -1,0 +1,11 @@
+.*.swo
+.*.swp
+nbproject
+CVS
+.cvsignore
+.#*
+.DS_Store
+.sublime-workspace
+.idea/
+node_modules/
+dist/
