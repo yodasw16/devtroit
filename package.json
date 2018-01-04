@@ -37,7 +37,7 @@
     "whatwg-fetch": "^1.0.0"
   },
   "devDependencies": {
-    "@scalescss/scalescss": "^3.1.1",
+    "@scalescss/scalescss": "^3.2.0",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-plumber": "^1.1.0",
     "gulp-sass": "^3.1.0"
