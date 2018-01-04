@@ -2,9 +2,9 @@ import gulp from "gulp";
 import {spawn} from "child_process";
 import hugoBin from "hugo-bin";
 import gutil from "gulp-util";
-import postcss from "gulp-postcss";
-import cssImport from "postcss-import";
-import cssnext from "postcss-cssnext";
+import sass from "gulp-sass";
+import autoprefixer from "gulp-autoprefixer";
+import plumber from "gulp-plumber";
 import BrowserSync from "browser-sync";
 import webpack from "webpack";
 import webpackConfig from "./webpack.conf";
@@ -23,10 +23,15 @@ gulp.task("hugo-preview", (cb) => buildSite(cb, hugoArgsPreview));
 gulp.task("build", ["css", "js"], (cb) => buildSite(cb, [], "production"));
 gulp.task("build-preview", ["css", "js"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
 
-// Compile CSS with PostCSS
+// Compile CSS with Sass
 gulp.task("css", () => (
-  gulp.src("./src/css/*.css")
-    .pipe(postcss([cssImport({from: "./src/css/main.css"}), cssnext()]))
+  gulp.src("./src/sass/**/*.scss")
+    .pipe(plumber())
+    .pipe(sass())
+    .pipe(autoprefixer({
+      browsers: ["> 1%","last 2 versions"],
+      cascade: false
+    }))
     .pipe(gulp.dest("./dist/css"))
     .pipe(browserSync.stream())
 ));
@@ -54,7 +59,7 @@ gulp.task("server", ["hugo", "css", "js"], () => {
     }
   });
   gulp.watch("./src/js/**/*.js", ["js"]);
-  gulp.watch("./src/css/**/*.css", ["css"]);
+  gulp.watch("./src/sass/**/*.scss", ["css"]);
   gulp.watch("./site/**/*", ["hugo"]);
 });
 

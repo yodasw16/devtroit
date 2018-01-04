@@ -1,0 +1,25 @@
+.Header {
+  background-color: $red;
+  padding: 2rem .5rem;
+}
+
+.Masthead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.Nav {
+  text-align: right;
+}
+
+.Logo {
+  display: block;
+  width: 5rem;
+}
+
+.Heading--masthead {
+  color: $white;
+  line-height: 1.1;
+}

@@ -1,9 +1,57 @@
 {{ partial "header" . }}
 
-<h1>Hugo with Gulp, PostCSS and Webpack</h1>
+  <main role="main">
+    <section id="slack" class="Slack SectionWrapper">
+      <div class="Center">
+        <a href="https://join.slack.com/t/devtroit/shared_invite/enQtMjQxNTk0NTEwNzkxLTVlMmEzNjRlZWI1OWIwNGI1OWU1NTVjZTI4NTY5YWJmNzE5MWZkZmE2MzU1ZjI5ODMyYjVmMTUwZWI0ZmEwZGY" class="Button Button--primary Button--slack">Join Devtroit on Slack</a>
+      </div>
+    </section>
+    <!-- <section id="blog" class="Blog">
 
-<p>
-  Hooray 🎉 - you've built this with <a href="https://github.com/netlify/victor-hugo">Victor-Hugo</a>!
-</p>
+    </section>
+    <section id="podcast" class="Podcast">
+
+    </section> -->
+    <section id="badges" class="Badges SectionWrapper">
+      <h2 class="Heading Heading--secondary">Get the badge</h2>
+      <p>Are you proud to be a developer or designer in Detroit? Show it by putting the Devtroit badge on your site.</p>
+      <p class="mbh">Feel free to resize and change the color!</p>
+      <img class="DevtroitBadge" src="/images/devtroit.svg" alt="The Devtroit badge">
+      <h3 class="Heading Heading--secondary">Download options</h3>
+      <ul class="List--bare BadgesLinks">
+        <li><a class="BadgesLink" href="/images/devtroit.svg">.SVG</a></li>
+        <li><a class="BadgesLink" href="/images/devtroit.sketch">.SKETCH</a></li>
+        <li><a class="BadgesLink" href="/images/devtroit.ai">.AI</a></li>
+        <li><a class="BadgesLink" href="/images/devtroit.eps">.EPS</a></li>
+      </ul>
+    </section>
+    <section id="form" class="SectionWrapper">
+      <h2 class="Heading Heading--secondary TextColor--blue">Are you using the badge?</h2>
+      <form name="devtroit" data-netlify="true">
+        <div class="InputContainer">
+          <label for="name">Site name</label>
+          <input class="TextInput" id="name" type="text">
+          <span class="HelperText">How do you want you site to be listed?</span>
+        </div>
+        <div class="InputContainer">
+          <label for="url">The URL for your site</label>
+          <input class="TextInput" id="url" type="url" required>
+        </div>
+        <button type="submit" class="Button Button--primary">Send it!</button>
+      </form>
+    </section>
+    <section id="users" class="Users SectionWrapper">
+      <h2 class="Heading Heading--secondary">See who's using the badge?</h2>
+      <ul class="">
+        <li><a href="http://stellardetroit.com">stellardetroit.com</a></li>
+        <li><a href="http://davidgillhespy.com">davidgillhespy.com</a></li>
+        <li><a href="http://calvinbushor.com">calvinbushor.com</a></li>
+        <li><a href="http://jewlofthelotus.com">jewlofthelotus.com</a></li>
+        <li><a href="http://threadbox.net">threadbox.net</a></li>
+        <li><a href="http://landlessness.net">landlessness.net</a></li>
+        <li><a href="http://leinninger.com">leinninger.com</a></li>
+      </ul>
+    </section>
+  </main>
 
 {{ partial "footer" . }}

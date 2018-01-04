@@ -1,0 +1,101 @@
+.SectionWrapper {
+  padding: 2rem .5rem 2rem;
+}
+
+a {
+  color: $white;
+  text-decoration: none;
+
+  &:hover,
+  &:focus,
+  &:active {
+    text-decoration: underline;
+  }
+}
+
+.Heading {
+  margin-bottom: 1rem;
+}
+
+.Heading--primary {
+  color: $blue;
+}
+
+.Heading--secondary {
+  color: $white;
+  line-height: 1.1;
+}
+
+.Button--primary {
+  background-color: $white;
+  border: 3px solid $black;
+  border-radius: 5px;
+  box-shadow: 4px 4px 0 $blue-green;
+  color: $black;
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: $white;
+    box-shadow: 4px 4px 0 $yellow;
+    outline: none;
+  }
+}
+
+.Slack {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+.Button--slack {
+  padding: 1.25rem 2.5rem;
+}
+
+.Badges,
+.Users {
+  color: $white;
+  background-color: $black;
+}
+
+.DevtroitBadge {
+  margin-bottom: 2rem;
+  max-width: 350px;
+}
+
+.BadgesLinks {
+  max-width: 350px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.BadgesLink {
+  border: 2px solid $white;
+  border-radius: 2px;
+  padding-left: .75em;
+  padding-right: .75em;
+  box-shadow: 2px 2px 0 $yellow;
+  font-size: 0.9rem;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: $white;
+    color: $black;
+    text-decoration: none;
+    box-shadow: 2px 2px 0 $blue;
+  }
+}
+
+.TextInput {
+  width: 100%;
+  border: 2px solid $black;
+  border-radius: 2px;
+  box-shadow: 4px 4px 0 $blue-green;
+
+  &:focus {
+    outline: 0;
+    box-shadow: 4px 4px 0 $yellow;
+  }
+}

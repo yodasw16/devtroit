@@ -1,0 +1,63 @@
+.VisuallyHidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.TextColor--blue {
+  color: #4f88a2;
+}
+.TextColor--blue-green {
+  color: #63abaa;
+}
+.TextColor--yellow {
+  color: #f0c67c;
+}
+.TextColor--orange {
+  color: #e37b45;
+}
+.TextColor--red {
+  color: #c23548;
+}
+.TextColor--white {
+  color: #ffffff;
+}
+.TextColor--black {
+  color: #333333;
+}
+.BackgroundColor--blue {
+  background-color: #4f88a2;
+}
+.BackgroundColor--blue-green {
+  background-color: #63abaa;
+}
+.BackgroundColor--yellow {
+  background-color: #f0c67c;
+}
+.BackgroundColor--orange {
+  background-color: #e37b45;
+}
+.BackgroundColor--red {
+  background-color: #c23548;
+}
+.BackgroundColor--white {
+  background-color: #ffffff;
+}
+.BackgroundColor--black {
+  background-color: #333333;
+}
+
+.Center {
+  text-align: center;
+}
+
+.Display--flex {
+  display: flex;
+}
+
+.JustifyContent--space-around {
+  justify-content: space-around;
+}
