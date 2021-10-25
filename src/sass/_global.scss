@@ -59,14 +59,16 @@ a {
 }
 
 .DevtroitBadge {
-  margin-bottom: 2rem;
+  margin-bottom: 0 auto 2rem auto;
   max-width: 350px;
+  display: block;
 }
 
 .BadgesLinks {
   max-width: 350px;
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
 }
 
 .BadgesLink {
